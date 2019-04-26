@@ -55,6 +55,19 @@ font-size: 17px;
 -webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: yellow;					     
 }
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 .footer {
 padding: 60px;
 text-align: center;
@@ -80,11 +93,12 @@ font-size: 16px;
 <p>3) Simpler is easy; COMPLICATED I$ HARD</p>
 <p>You do not want to argue anymore, but the other partner is unreasonable and wants to play the “blame game.” It leaves you with no choice but to “lawyer up” and hash it out in court. It is best to know your rights and to protect yourself and your well-being.</p>
 <br>
+<div class="videoWrapper">
 <iframe width="560" height="315" align="middle" src="https://www.youtube-nocookie.com/embed/Ufes7DbM3YE" 
 	frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 	allowfullscreen>
 	</iframe>
-
+	</div>
 </div>
 
 <!-- Footer -->
